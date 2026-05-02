@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build and packaging
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Tool caches
+.cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local runtime and temporary files
+tmp/
+temp/
+*.tmp
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Generated app outputs
+outputs/
+artifacts/
+
+# Legacy darkflow generated outputs
+Code/YOLO/darkflow/output_images/
+Code/YOLO/darkflow/bin/*.weights
+
+# Keep legacy source assets tracked
+!Code/YOLO/darkflow/test_images/
+!Code/YOLO/darkflow/images/
+!Code/YOLO/darkflow/cfg/
